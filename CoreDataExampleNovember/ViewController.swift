@@ -8,16 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-
-    private var models = [ToDoListItem]()
-
-    let tableView: UITableView = {
-        let table = UITableView()
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        return table
-    }()
-
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "CoreData To Do List"
@@ -94,6 +84,15 @@ class ViewController: UIViewController {
             // error
         }
     }
+
+    // MARK: - Internal
+    private let context = CoreDataStack().persistentContainer.viewContext
+    private var models = [ToDoListItem]()
+    private let tableView: UITableView = {
+        let table = UITableView()
+        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        return table
+    }()
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {

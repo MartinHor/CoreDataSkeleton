@@ -16,6 +16,7 @@
 		FB2389CE2733BF6200CD0C33 /* SampleName.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB2389CC2733BF6200CD0C33 /* SampleName.xcdatamodeld */; };
 		FB2389D12733BFEE00CD0C33 /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2389CF2733BFEE00CD0C33 /* ToDoListItem+CoreDataClass.swift */; };
 		FB2389D22733BFEE00CD0C33 /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2389D02733BFEE00CD0C33 /* ToDoListItem+CoreDataProperties.swift */; };
+		FB2389D52733DC4E00CD0C33 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2389D42733DC4E00CD0C33 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FB2389CD2733BF6200CD0C33 /* RadioX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioX.xcdatamodel; sourceTree = "<group>"; };
 		FB2389CF2733BFEE00CD0C33 /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FB2389D02733BFEE00CD0C33 /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FB2389D42733DC4E00CD0C33 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				FB2389C62733BF3C00CD0C33 /* Info.plist */,
 				FB2389CC2733BF6200CD0C33 /* SampleName.xcdatamodeld */,
 				FB2389D32733C00300CD0C33 /* ToDoListItem */,
+				FB2389D42733DC4E00CD0C33 /* CoreDataStack.swift */,
 			);
 			path = CoreDataExampleNovember;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2389D52733DC4E00CD0C33 /* CoreDataStack.swift in Sources */,
 				FB2389BD2733BF3900CD0C33 /* ViewController.swift in Sources */,
 				FB2389B92733BF3900CD0C33 /* AppDelegate.swift in Sources */,
 				FB2389CE2733BF6200CD0C33 /* SampleName.xcdatamodeld in Sources */,
